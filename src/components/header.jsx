@@ -7,8 +7,8 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-gray-900 text-white">
-      <a href="/" className="logo text-2xl font-bolf">
+    <header className="flex justify-between px-5 py-2 bg-primary text-white">
+      <a href="/" className="logo text-2xl font-bolf text-accent">
         Rakesh
       </a>
 
@@ -38,8 +38,8 @@ const Header = () => {
       <nav
         className={
           !toggle
-            ? "block md:hidden fixed left-[100%] top-20 py-2 w-full h-full bg-gray-900 duration-500"
-            : "block md:hidden fixed left-0 top-10 py-2 w-full h-full bg-gray-900 duration-500"
+            ? "block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500 left-[-100%]"
+            : "block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500 left-0"
         }
       >
         <ul className="flex flex-col">
@@ -50,13 +50,13 @@ const Header = () => {
             <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="/work">Work</a>
+            <a href="/#work">Work</a>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <a href="/#resume">Resume</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/#contact">Contact</a>
           </li>
         </ul>
       </nav>
