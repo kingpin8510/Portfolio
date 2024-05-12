@@ -22,9 +22,6 @@ const Header = () => {
             <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="/work">Work</a>
-          </li>
-          <li>
             <a href="/resume">Resume</a>
           </li>
           <li>
@@ -48,9 +45,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#work">Work</a>
           </li>
           <li>
             <a href="/#resume">Resume</a>

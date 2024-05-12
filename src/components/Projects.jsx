@@ -10,28 +10,24 @@ const Projects = () => {
       img: devlog,
       title: "devlog",
       desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
       code: "https://github.com/Coderamrin/devlog",
     },
     {
       img: uilogs,
       title: "uilogs",
       desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
       code: "https://github.com/Coderamrin/html-templates",
     },
     {
       img: cssProjects,
       title: "css projects",
       desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
       code: "https://github.com/Coderamrin/build-10-css-projects",
     },
     {
       img: getInspirred,
       title: "get Inspirred",
       desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
       code: "https://github.com/Coderamrin/get-inspired",
     },
   ];
@@ -64,12 +60,6 @@ const Projects = () => {
                 </p>
 
                 <div className="mx-auto">
-                  <a
-                    href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
-                  >
-                    Live
-                  </a>
                   <a
                     href={project.code}
                     className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"

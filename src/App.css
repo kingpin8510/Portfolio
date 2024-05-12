@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/*html {
+html {
     scroll-behavior: smooth;
 }
 
@@ -10,12 +10,10 @@ body {
     @apply text-lg
 }
 
+
 .projects img {
     width: 100%;
 }
-
-*/
-
 
 .bg-primary {
     background: #0F172A;
