@@ -13,19 +13,19 @@ const Header = () => {
       </a>
 
       {/*Desktop Nav*/}
-      <nav className="hidden md:block">
+      <nav className="hidden md:block" id="n1">
         <ul className="flex">
-          <li>
-            <a href="/#">About</a>
+          <li className="relative">
+            <a href="/#about">About</a>
           </li>
           <li>
             <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <a href="/#resume">Resume</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/#contact">Contact</a>
           </li>
         </ul>
       </nav>

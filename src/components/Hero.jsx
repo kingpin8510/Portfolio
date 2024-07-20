@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32">
+    <section className="bg-primary px-12 text-white py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
@@ -18,7 +18,7 @@ const Hero = () => {
           </h1>
 
           <p className="py-5">
-            I am proficient in JavaScript, React.js and Tailwind CSS
+            Proficient in JavaScript, React.js and Tailwind CSS
           </p>
 
           <div className="flex py-5 ">
