@@ -7,6 +7,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiOutlineInstagram,
+  AiOutlineCloudDownload,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -51,11 +52,11 @@ const Hero = () => {
               {" "}
               <AiOutlineMail size={40} />{" "}
             </a> */}
-          <div className="flex py-10 ">
+          <div className="flex py-10">
             <ul class="example-2">
               <li class="icon-content">
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/rkp2508"
                   aria-label="LinkedIn"
                   data-social="linkedin"
                 >
@@ -67,7 +68,7 @@ const Hero = () => {
 
               <li class="icon-content">
                 <a
-                  href="https://www.github.com/"
+                  href="https://github.com/kingpin8510"
                   aria-label="GitHub"
                   data-social="github"
                 >
@@ -79,7 +80,19 @@ const Hero = () => {
 
               <li class="icon-content">
                 <a
-                  href="https://www.instagram.com/"
+                  href="mailto:rp240479@gmail.com"
+                  aria-label="Mail"
+                  data-social="mail"
+                >
+                  <div class="filled"></div>
+                  <AiOutlineMail size={60} />{" "}
+                </a>
+                <div class="tooltip">Mail</div>
+              </li>
+
+              <li class="icon-content">
+                <a
+                  href="https://www.instagram.com/retr00_01"
                   aria-label="Instagram"
                   data-social="instagram"
                 >
@@ -91,12 +104,34 @@ const Hero = () => {
             </ul>
           </div>
 
-          <a
-            href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
-          >
-            See Projects
-          </a>
+          <div className="flex space-x-6">
+            {/* <a
+              href="/#projects"
+              className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+            >
+              See Projects
+            </a> */}
+
+            <button class="download-btn pixel-corners">
+              <div class="button-content">
+                <div class="svg-container">
+                  <AiOutlineCloudDownload size={30} />
+                </div>
+                <div class="text-container">
+                  <div class="text">DOWNLOAD RESUME</div>
+                </div>
+              </div>
+            </button>
+
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">
+                <a href="#projects">Projects</a>
+              </span>
+            </button>
+          </div>
         </div>
 
         <div className="hero-img">
