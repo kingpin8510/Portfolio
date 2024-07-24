@@ -1,7 +1,7 @@
 # My Web Portfolio
 
 Welcome to my web portfolio! This project showcases my skills and projects using modern web technologies.
-Techstack used : `HTML`, `CSS`, `JavaScript`, `ReactJS`, `Tailwind CSS`
+<br>Techstack used : `HTML`, `CSS`, `JavaScript`, `ReactJS`, `Tailwind CSS`
 
 ## Table of Contents
 
