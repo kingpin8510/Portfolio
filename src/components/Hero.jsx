@@ -17,6 +17,7 @@ const Hero = () => {
     const typed = new Typed(el.current, {
       strings: ["<i>Frontend</i>", "<i>Sql</i>", "<i>Python</i>"],
       typeSpeed: 50,
+      loop:true,
     });
   }, []);
 
