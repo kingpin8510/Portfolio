@@ -11,21 +11,26 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hi, My Name Is Rohima Akther everyone calls me Amrin. I am a
-            Frontend Developer. I build beautifull websites with React and
-            Tailwind CSS.
+            Hello! I'm Rakesh Pradhan, a web developer with a strong passion for
+            creating engaging and user-friendly websites. I specialize in
+            crafting clean, efficient code and designing seamless digital
+            experiences.
           </p>
           <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool
-            Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
+            My expertise includes HTML, CSS, JavaScript, ReactJS, Tailwind CSS
+            and much more ,and I'm always eager to expand my knowledge and
+            explore new technologies. I thrive on turning innovative ideas into
+            reality and believe in the power of collaboration to bring out the
+            best in any project.
           </p>
-
-          <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
 
           <p>
-            In my spare time I create YouTube videos and write blogs on my Blog.
-            Where I talk about programming theory and build various projects.
+            In my free time, I enjoy exploring design trends and continuously
+            honing my skills to stay ahead in the ever-evolving world of web
+            development.
           </p>
+
+          <p>Let's work together to build something extraordinary !!</p>
         </div>
 
         <div className="about-img">

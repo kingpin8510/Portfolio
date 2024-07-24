@@ -109,7 +109,7 @@ const Projects = () => {
                 </a>
                 <a
                   href={project.code}
-                  className="card__button secondary bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded"
+                  className="card__button bg-gray-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
                 >
                   Source Code
                 </a>
