@@ -3,32 +3,45 @@ import cssProjects from "../assets/cssprojects.png";
 import devlog from "../assets/devlog.png";
 import getInspirred from "../assets/get-inspirred.png";
 import uilogs from "../assets/uilogs.png";
+import igdb from "../assets/igdb.png"
+import portfolio from "../assets/portfolio.png"
+import store from "../assets/store.png"
+import clone from "../assets/clone.png"
+import game from "../assets/game.png"
 
 const Projects = () => {
   const projects = [
     {
-      img: devlog,
+      img: igdb,
       title: "IGDB",
-      desc: " IGDB : Internet Game Database ",
-      code: "https://github.com/Coderamrin/devlog",
+      desc: " IGDB : Internet Game Database. A game discovery web app ",
+      demo: "https://igdb-theta.vercel.app/",
+      code: "https://github.com/kingpin8510/IGDb",
     },
     {
-      img: uilogs,
+      img: portfolio,
+      title: "Portfolio",
+      desc: "My personal web portfolio : Dynamic and responsive with my description",
+      code: "https://github.com/kingpin8510/Personal-Portfolio",
+    },
+    {
+      img: store,
+      title: "Vegan-Store Template",
+      desc: "A basic store template showcasing a basic store format with all necessary elements",
+      code: "https://github.com/kingpin8510/Vegan-Store",
+    },
+    {
+      img: clone,
+      title: "E-commerce Clone",
+      desc: "E commerce clone inspired by Amazon ecommerce website",
+      demo: "https://amazon-clone-two-gray.vercel.app/",
+      code: "https://github.com/kingpin8510/Amazon-Clone",
+    },
+    {
+      img: game,
       title: "Space Invaders",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      code: "https://github.com/Coderamrin/html-templates",
-    },
-    {
-      img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challenge directory, solved with vanilla CSS",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
-    },
-    {
-      img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      code: "https://github.com/Coderamrin/get-inspired",
+      desc: "A fun retro arcade game designed using pygame library",
+      code: "https://github.com/kingpin8510/Space-Invaders",
     },
   ];
 
@@ -79,9 +92,9 @@ const Projects = () => {
             Projects
           </h2>
 
-          <p className="pb-5">
+          <p className="pb-5 py-2">
             These are some of my best projects. I have built these with
-            different techstacks. Do Check them out.
+            different techstacks. Do Check them out !! 
           </p>
         </div>
 
