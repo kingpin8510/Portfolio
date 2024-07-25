@@ -15,9 +15,6 @@ const Contact = () => {
         <p className="py-2">
           <span className="font-bold">Email:</span> rp240479@gmail.com
         </p>
-        <p className="py-2">
-          <span className="font-bold">Phone:</span> +91 9625450284
-        </p>
       </div>
     </section>
   );
