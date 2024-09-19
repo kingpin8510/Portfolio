@@ -8,9 +8,17 @@ import portfolio from "../assets/portfolio.png"
 import store from "../assets/store.png"
 import clone from "../assets/clone.png"
 import game from "../assets/game.png"
+import aero from "../assets/aero.png"
 
 const Projects = () => {
   const projects = [
+    {
+      img: aero,
+      title: "Aero-Social",
+      desc: "A Dynamic Pinboard Social Media App allowing users to upload, download and save posts.",
+      demo: "https://aero-social.netlify.app/",
+      code: "https://github.com/kingpin8510/Aero",
+    },
     {
       img: igdb,
       title: "IGDB",
