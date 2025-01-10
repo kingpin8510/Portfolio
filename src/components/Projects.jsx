@@ -9,9 +9,17 @@ import store from "../assets/store.png"
 import clone from "../assets/clone.png"
 import game from "../assets/game.png"
 import aero from "../assets/aero.png"
+import sf from "../assets/sf.png"
 
 const Projects = () => {
   const projects = [
+    {
+      img: sf,
+      title: "SafeMax Security",
+      desc: "Designed and developed a responsive landing page for SafeMax Security.",
+      demo: "https://sf-security.vercel.app/",
+      code: "https://github.com/kingpin8510/SF-Security",
+    },
     {
       img: aero,
       title: "Aero-Social",
