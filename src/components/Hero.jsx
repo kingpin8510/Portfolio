@@ -17,7 +17,7 @@ const Hero = () => {
     const typed = new Typed(el.current, {
       strings: ["<i>Frontend</i>", "<i>Sql</i>", "<i>Python</i>"],
       typeSpeed: 50,
-      loop:true,
+      loop: true,
     });
   }, []);
 
@@ -113,16 +113,18 @@ const Hero = () => {
               See Projects
             </a> */}
 
-            <button class="download-btn pixel-corners">
-              <div class="button-content">
-                <div class="svg-container">
-                  <AiOutlineCloudDownload size={30} />
+            <a href="/resume.pdf" download>
+              <button class="download-btn pixel-corners">
+                <div class="button-content">
+                  <div class="svg-container">
+                    <AiOutlineCloudDownload size={30} />
+                  </div>
+                  <div class="text-container">
+                    <div class="text">DOWNLOAD RESUME</div>
+                  </div>
                 </div>
-                <div class="text-container">
-                  <div class="text">DOWNLOAD RESUME</div>
-                </div>
-              </div>
-            </button>
+              </button>
+            </a>
 
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
